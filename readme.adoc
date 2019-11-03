@@ -10,13 +10,10 @@ Start the process CustomerWorkflow.
 
 === Scenario 1
 
-Login as Bob
-Submit RFQ
-
-See that RFQWorkflow has started
-
-Login as Sam
-Validate RFQ
-
-Login as Bob
-Accept quote
+* Login as Bob
+* Submit RFQ
+* See that RFQWorkflow has started
+* Login as Sam
+* Validate RFQ
+* Login as Bob
+* Accept quote
