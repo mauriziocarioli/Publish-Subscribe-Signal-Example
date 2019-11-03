@@ -1,0 +1,22 @@
+== Mini Demo of the Publish and Subscribe Pattern in BPM Using Signals
+
+This demo assumes that Red Hat PAM is deployed on Red Hat EAP.
+
+Use the script in src/sh to add the users and groups required by the demo.
+
+Deploy the process.
+
+Start the process CustomerWorkflow.
+
+=== Scenario 1
+
+Login as Bob
+Submit RFQ
+
+See that RFQWorkflow has started
+
+Login as Sam
+Validate RFQ
+
+Login as Bob
+Accept quote
